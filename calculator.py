@@ -4,8 +4,15 @@
 #call the funnctions 
 # while loop to continue the program 
 
-# start add Function 
+# start add function 
 def add(a,b):
-    answer = a+b 
+    answer = a + b 
     print(str(a) + " + " + str(b) + " = " + str(answer) )
 # finish add function 
+
+# start sub function 
+def sub(a,b):
+    answer = a - b
+    print(str(a) + " - " + str(b) + " = " + str(answer) )
+# finish the sub function 
+
