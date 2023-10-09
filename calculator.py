@@ -33,3 +33,30 @@ print("B, Subtraction")
 print("C, Multiplication")
 print("D, Division")
 print("E, Exit")
+
+choise = input("input your choise : ")
+
+if choise.upper() == "A" : 
+    print("Adition")
+    a = int(input("input first number : "))
+    b = int(input("input seconde number : "))
+    add(a,b)
+elif choise.upper() == "B" : 
+    print("Subtraction ")
+    a = int(input("input first number : "))
+    b = int(input("input seconde number : "))
+    sub(a,b)
+elif choise.upper() == "C" : 
+    print("Multiplication")
+    a = int(input("input first number : "))
+    b = int(input("input seconde number : "))
+    multi(a,b)  
+elif choise.upper() == "D" : 
+    print("Division")
+    a = int(input("input first number : "))
+    b = int(input("input seconde number : "))
+    div(a,b)
+elif choise.upper() == "E" : 
+    print("Program Ended")
+    quit()
+              
