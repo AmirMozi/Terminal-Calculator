@@ -22,6 +22,14 @@ def multi(a,b):
     print(str(a) + " x " + str(b) + " = " + str(answer) )
 # end of multi function 
 
+# start div function
+def div(a,b):
+    answer = a / b
+    print(str(a) + " / " + str(b) + " = " + str(answer) )
+# end div function
 
-
-
+print("A, Adition" )
+print("B, Subtraction")
+print("C, Multiplication")
+print("D, Division")
+print("E, Exit")
