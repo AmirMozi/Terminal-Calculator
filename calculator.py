@@ -16,3 +16,12 @@ def sub(a,b):
     print(str(a) + " - " + str(b) + " = " + str(answer) )
 # finish the sub function 
 
+# start multy function
+def multi(a,b):
+    answer = a * b
+    print(str(a) + " x " + str(b) + " = " + str(answer) )
+# end of multi function 
+
+
+
+
